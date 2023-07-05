@@ -10,6 +10,11 @@ Algoritmo Adulto_mayor
 	Si Edad >= 60 Entonces
 		Mostrar "Eres una persona mayor"
 	SiNo
-		Mostrar "Eres una persona no tan mayor"
+		si edad >= 18
+			Mostrar "es un adulto"
+		SiNo
+			Mostrar "es un niño"
+		Fin Si
+			
 	Fin Si
 FinAlgoritmo
